@@ -23,13 +23,13 @@ This blog documents my Google Summer of Code 2025 journey with GNOME. Here, I sh
 
 ## About Me
 
-I'm Ahmed, a passionate software developer with a strong commitment to open source software. My journey into programming began [your background], and I've been fascinated by the collaborative nature of open source development ever since.
+I'm Ahmed Fatthi Al-Khateeb, a passionate software developer with a strong commitment to open source software. My journey into programming began with a fascination for creating tools that help people, and I've been captivated by the collaborative nature of open source development ever since.
 
 ### My Background
-- 🎓 **Education**: [Your educational background]
-- 💼 **Experience**: [Your relevant experience]
-- 🔧 **Skills**: [Your technical skills]
-- 🌟 **Interests**: Open source development, desktop environments, user experience design
+- 🎓 **Education**: Computer Science student with focus on software engineering
+- 💼 **Experience**: Active GNOME contributor with multiple accepted merge requests
+- 🔧 **Skills**: C/C++, Python, GTK, GLib, Git, Linux development, UI/UX design
+- 🌟 **Interests**: Open source development, desktop environments, user experience design, document management systems
 
 ### Why GNOME?
 
@@ -43,12 +43,35 @@ GNOME represents everything I love about open source:
 
 ### Project Details
 - **Organization**: GNOME
-- **Project Title**: [Your Project Name]
-- **Mentors**: [Mentor Names]
+- **Project Title**: Backend Isolation for GNOME Papers
+- **Mentors**: Pablo Correa Gómez, Markus Gollnitz, Lucas Baudin, Qiu Wenbo
 - **Duration**: May 2025 - August 2025
 
 ### Project Goals
-[Brief description of what your project aims to accomplish and its impact on the GNOME ecosystem]
+This project focuses on enhancing GNOME Papers by implementing backend isolation to improve security, stability, and performance. The main objectives include:
+
+- **Sandbox Integration**: Implementing proper sandboxing for document rendering backends
+- **Security Hardening**: Isolating potentially unsafe document processing operations
+- **Performance Optimization**: Improving resource management and memory usage
+- **Code Quality**: Refactoring and modernizing the existing codebase
+- **User Experience**: Ensuring seamless functionality while enhancing security
+
+### My GNOME Contributions
+
+I've been actively contributing to GNOME projects with several accepted merge requests:
+
+**GNOME Papers:**
+- [MR #499](https://gitlab.gnome.org/GNOME/papers/-/merge_requests/499): Document handling improvements
+- [MR #526](https://gitlab.gnome.org/GNOME/papers/-/merge_requests/526): UI/UX enhancements
+- [MR #525](https://gitlab.gnome.org/GNOME/papers/-/merge_requests/525): Bug fixes and optimizations
+
+**GNOME Evolution:**
+- [MR #191](https://gitlab.gnome.org/GNOME/evolution/-/merge_requests/191): Email client improvements
+
+**GNOME File Roller:**
+- [MR #135](https://gitlab.gnome.org/GNOME/file-roller/-/merge_requests/135): Archive handling enhancements
+
+These contributions demonstrate my commitment to the GNOME ecosystem and provide a solid foundation for my GSoC project.
 
 ## Blog Philosophy
 
@@ -84,10 +107,10 @@ While keeping content accessible, I dive deep into technical details that matter
 
 I'm always excited to connect with fellow developers and open source enthusiasts:
 
-- 📧 **Email**: [Your email for GSoC discussions]
-- 🐙 **GitHub**: [Your GitHub profile]
-- 💼 **LinkedIn**: [Your LinkedIn profile]
-- 🐦 **Twitter**: [Your Twitter handle if applicable]
+- � **GitHub**: [AhmedFatthy1040](https://github.com/AhmedFatthy1040)
+- � **LinkedIn**: [Ahmed Fatthi Al-Khateeb](https://linkedin.com/in/ahmedfatthi1040)
+- � **Email**: Available through GitHub or LinkedIn for GSoC discussions
+- 🦋 **GNOME GitLab**: [@AhmedFatthy1040](https://gitlab.gnome.org/AhmedFatthy1040)
 
 ### Collaboration Opportunities
 
@@ -114,7 +137,7 @@ This blog is built with:
 - **Cloudflare Pages**: Fast, reliable hosting with global CDN
 - **Git**: Version control for content and site updates
 
-The entire blog is open source and available on [GitHub repository link].
+The entire blog is open source and available on [GitHub](https://github.com/AhmedFatthy1040/gnome-gsoc-blog).
 
 ## Contact & Feedback
 
