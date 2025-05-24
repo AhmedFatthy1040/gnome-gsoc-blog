@@ -16,10 +16,8 @@ enableEmoji = true
 [params]
   env = "production"
   title = "GNOME GSoC 2025 Journey"
-  description = "Follow Ahmed Fatthi Al-Khateeb's Google Summer of Code 2025 journey with GNOME, working on Backend Isolation for GNOME Papers. Including progress updates, technical deep dives, and reflections."
-  keywords = ["GSoC", "GNOME", "Open Source", "Development", "Summer of Code"]
+  description = "Follow Ahmed Fatthi Al-Khateeb's Google Summer of Code 2025 journey with GNOME, working on Backend Isolation for GNOME Papers. Including progress updates, technical deep dives, and reflections."  keywords = ["GSoC", "GNOME", "Open Source", "Development", "Summer of Code"]
   author = "Ahmed Fatthi Al-Khateeb"
-  images = ["og-image.png"]
   DateFormat = "January 2, 2006"
   defaultTheme = "auto"
   disableThemeToggle = false
