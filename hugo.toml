@@ -1,0 +1,122 @@
+baseURL = 'https://gnome-gsoc-blog.pages.dev'
+languageCode = 'en-us'
+title = 'GNOME GSoC 2025 Journey'
+theme = 'PaperMod'
+
+# Additional settings for better SEO and performance
+[pagination]
+  pagerSize = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+# Cloudflare Pages optimization
+[params]
+  env = "production"
+  title = "GNOME GSoC 2025 Journey"
+  description = "Follow Ahmed Fatthi Al-Khateeb's Google Summer of Code 2025 journey with GNOME, working on Backend Isolation for GNOME Papers. Including progress updates, technical deep dives, and reflections."
+  keywords = ["GSoC", "GNOME", "Open Source", "Development", "Summer of Code"]
+  author = "Ahmed Fatthi Al-Khateeb"
+  images = ["og-image.png"]
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+    safari_pinned_tab = "/safari-pinned-tab.svg"
+
+  [params.label]
+    text = "GNOME GSoC 2025"
+    icon = "/apple-touch-icon.png"
+    iconHeight = 35
+
+  [params.profileMode]
+    enabled = false
+  [params.homeInfoParams]
+    Title = "Welcome to my GSoC 2025 Journey! 👋"
+    Content = "Follow along as I work on Backend Isolation for GNOME Papers through Google Summer of Code 2025. I'll be sharing my progress, technical insights, challenges, and learning experiences throughout this amazing journey."
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/AhmedFatthy1040"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/ahmedfatthi1040/"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archives/"
+    weight = 40
+
+# Syntax highlighting
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "github"
+
+# Privacy settings
+[privacy]
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.x]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+# SEO and performance
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

@@ -1,0 +1,6 @@
+# Cloudflare Pages redirects
+# Add any URL redirects here
+
+# Example redirects:
+# /old-url /new-url 301
+# /blog/* /posts/:splat 301
