@@ -1,4 +1,4 @@
-baseURL = 'https://ahmedfatthi.pages.dev'
+baseURL = 'https://gnome-gsoc-blog.pages.dev'
 languageCode = 'en-us'
 title = 'GNOME GSoC 2025 Journey'
 theme = 'PaperMod'
