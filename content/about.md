@@ -2,7 +2,10 @@
 title: "About This Blog & My GSoC Journey"
 date: 2025-05-24T00:00:00Z
 draft: false
-description: "Learn more about this blog, my GSoC 2025 project with GNOME, and my background in open source development."
+description: "Learn mo- 🐙 **GitHub**: [AhmedFatthy1040](https://github.com/AhmedFatthy1040)
+- 💼 **LinkedIn**: [Ahmed Fatthi Al-Khateeb](https://linkedin.com/in/ahmedfatthi1040)
+- 📧 **Email**: Available through GitHub or LinkedIn for GSoC discussions
+- 🦋 **GNOME GitLab**: [@ausername1040](https://gitlab.gnome.org/ausername1040)bout this blog, my GSoC 2025 project with GNOME, and my background in open source development."
 author: "Ahmed"
 showToc: true
 TocOpen: false
