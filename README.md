@@ -2,6 +2,8 @@
 
 📝 Blog for my Google Summer of Code 2025 journey with GNOME, including progress updates, technical deep dives, and reflections.
 
+🌐 **Live Blog**: [https://ahmedfatthi.pages.dev/](https://ahmedfatthi.pages.dev/)
+
 ## 🚀 Quick Start
 
 ### Local Development
@@ -141,9 +143,8 @@ This is a personal blog for my GSoC journey, but I welcome:
 
 ## 📧 Contact
 
-- **Email**: [Your email]
-- **GitHub**: [Your GitHub profile]
-- **LinkedIn**: [Your LinkedIn profile]
+- **GitHub**: [AhmedFatthy1040](https://github.com/AhmedFatthy1040)
+- **LinkedIn**: [Ahmed Fatthi Al-Khateeb](https://www.linkedin.com/in/ahmedfatthi1040/)
 
 ## 📜 License
 
