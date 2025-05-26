@@ -71,7 +71,7 @@ I chose GNOME for GSoC because it's a large, well-known organization that millio
 
 I'll be working on **Papers: Proof of Concept for Backend Isolation in GNOME Papers**.
 
-Currently, GNOME Papers (formerly Evince) processes all documents in a single application process. This introduces major **security and stability risks**: a crash or vulnerability in one document can take down the whole app.
+Currently, GNOME Papers (formerly Evince) processes each document in a new process to avoid a crash or vulnerability in one document taking down the whole app. To be able to create the long-awaited tab view and have many documents in the same process, there needs to be some isolation between documents.
 
 My project aims to build a **proof-of-concept for backend isolation**, where each document runs in a separate process. To do this, I'll:
 
