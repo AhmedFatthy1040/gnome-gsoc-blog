@@ -1,5 +1,5 @@
 +++
-date = '2025-06-01T08:00:00+03:00'
+date = '2025-05-31T18:00:00+03:00'
 draft = false
 title = 'GSoC 2025: First Two Weeks Progress Report'
 tags = ['GSoC', 'GNOME', 'Papers', 'open-source']
