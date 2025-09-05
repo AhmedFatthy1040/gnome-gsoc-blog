@@ -10,7 +10,7 @@ summary = 'Wrapping up my GSoC 2025 project: a working per-document sidecar (pro
 
 **Project**: Papers: Proof of Concept for Backend Isolation (Per-Document Sidecar Architecture)  
 **Organization**: GNOME  
-**Mentors**: Pablo Correa Gómez, Lucas Baudin, Markus Gollnitz, Qiu Wenbo  
+**Mentors**: Pablo Correa Gómez, Lucas Baudin, Markus Göllnitz, Qiu Wenbo  
 **Student**: Ahmed Fatthi Al-Khateeb
 
 ---
@@ -104,7 +104,6 @@ This confirmed stable sequencing: spawn → connect → enumerate → page proxy
 ---
 
 ## 6. What’s Missing / Not Finished (By Design for Prototype Stage)
-- **Meson integration gap**: Current `libdocument/sandbox/meson.build` omits `gdbus-codegen` steps and doesn’t compile the high-level factory/page sources needs wiring so downstream code can consume the API properly.
 - **No sidecar supervision**: If a sidecar crashes mid-session, there’s no automatic detection or restart signaling to the UI.
 - **No memory/page caching policy**: All renders are cold; no LRU or reuse of previously rendered sizes.
 - **Security hardening not re-enabled**: bubblewrap / tighter sandbox profiles deferred due to dev iteration friction.
